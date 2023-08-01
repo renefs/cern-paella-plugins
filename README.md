@@ -2,6 +2,7 @@
 
 [![Build and push to NPM](https://github.com/cern-vc/cern-paella-plugins/actions/workflows/build.yml/badge.svg)](https://github.com/cern-vc/cern-paella-plugins/actions/workflows/build.yml)
 [![npm version](https://badge.fury.io/js/cern-paella-plugins.svg)](https://badge.fury.io/js/cern-paella-plugins)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains the plugins for the Paella Player used at CERN.
 
