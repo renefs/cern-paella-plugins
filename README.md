@@ -1,5 +1,7 @@
 # Cern Paella Plugins
 
+[![Build and push to NPM](https://github.com/cern-vc/cern-paella-plugins/actions/workflows/build.yml/badge.svg)](https://github.com/cern-vc/cern-paella-plugins/actions/workflows/build.yml)
+
 This repository contains the plugins for the Paella Player used at CERN.
 
 ## Available plugins
