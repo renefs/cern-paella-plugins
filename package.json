@@ -24,7 +24,11 @@
     "README.md"
   ],
   "author": "Samuel Guillemet <samuel.guillemet@telecom-sudparis.eu>",
-  "license": "ISC",
+  "contributors": [
+    "Samuel Guillemet <samuel.guillemet@telecom-sudparis.eu>",
+    "Rene Fernandez Sanchez <rene.fernandez@cern.ch>"
+  ],
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/cern-vc/cern-paella-plugins/issues"
   },
