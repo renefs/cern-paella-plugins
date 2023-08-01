@@ -1,5 +1,5 @@
 {
-  "name": "cern-paella-plugins",
+  "name": "@cern-vc/cern-paella-plugins",
   "version": "0.2.0",
   "description": "Paella plugins for cern use",
   "main": "src/index.js",
@@ -23,7 +23,7 @@
     "src/index.js",
     "README.md"
   ],
-  "author": "",
+  "author": "Samuel Guillemet <samuel.guillemet@telecom-sudparis.eu>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cern-vc/cern-paella-plugins/issues"
