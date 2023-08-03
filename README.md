@@ -35,7 +35,7 @@ To use the plugins, you need to add the following lines to your `config.json` fi
 To load the plugins in the Paella Player, you need to add the import :
 
 ```javascript
-import getCernCustomPluginsContext from "cern-paella-plugins";
+import getCernCustomPluginsContext from "@cern-vc/cern-paella-plugins";
 ```
 
 And then, you need to add the following line to the init parameters of the Paella Player:
