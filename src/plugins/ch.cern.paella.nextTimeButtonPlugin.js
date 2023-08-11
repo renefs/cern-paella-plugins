@@ -55,13 +55,13 @@ export default class NextTimeButtonPlugin extends ButtonPlugin {
     const addSuffix =
       this.config.suffix !== undefined ? this.config.suffix : true;
     this.suffix = addSuffix ? "s" : "";
-    this.icon = `<img src="${defaultForwardIcon}"/>`;
+    this.icon = defaultForwardIcon;
     setTimeout(() => {
       Array.from(this.iconElement.getElementsByClassName("time-text")).forEach(
         (textIcon) => {
           // eslint-disable-next-line no-param-reassign
           textIcon.innerHTML = this.time + this.suffix;
-        },
+        }
       );
     }, 100);
   }
@@ -74,7 +74,7 @@ export default class NextTimeButtonPlugin extends ButtonPlugin {
     }
     this.time = this.slots[this.player.currentPosition];
     console.log(
-      `Jump to next time: ${this.time}. Slot ${this.player.currentPosition}`,
+      `Jump to next time: ${this.time}. Slot ${this.player.currentPosition}`
     );
     // const currentTime = await this.player.videoContainer.currentTime();
     this.player.videoContainer.setCurrentTime(this.time);

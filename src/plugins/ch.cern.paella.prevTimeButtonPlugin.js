@@ -1,5 +1,5 @@
 import { ButtonPlugin } from "paella-core";
-import defaultIcon from "./icons/previous-icon.svg";
+import defaultBackwardIcon from "./icons/previous-icon.svg";
 
 const params = new Proxy(new URLSearchParams(window.location.search), {
   get: (searchParams, prop) => searchParams.get(prop),
@@ -56,13 +56,13 @@ export default class PrevTimeButtonPlugin extends ButtonPlugin {
     const addSuffix =
       this.config.suffix !== undefined ? this.config.suffix : true;
     this.suffix = addSuffix ? "s" : "";
-    this.icon = `<img src="${defaultIcon}"/>`;
+    this.icon = defaultBackwardIcon;
     setTimeout(() => {
       Array.from(this.iconElement.getElementsByClassName("time-text")).forEach(
         (textIcon) => {
           // eslint-disable-next-line no-param-reassign
           textIcon.innerHTML = this.time + this.suffix;
-        },
+        }
       );
     }, 100);
   }
@@ -75,7 +75,7 @@ export default class PrevTimeButtonPlugin extends ButtonPlugin {
     }
     this.time = this.slots[this.player.currentPosition];
     console.log(
-      `Jump to previous time: ${this.time}. Slot ${this.player.currentPosition}`,
+      `Jump to previous time: ${this.time}. Slot ${this.player.currentPosition}`
     );
     this.player.videoContainer.setCurrentTime(this.time);
   }
