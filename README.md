@@ -72,7 +72,9 @@ To test the plugins, you need to run the following command:
 $ npm run dev
 ```
 
-Go to `http://localhost:8090/?id=test-video` to test the plugins.
+Go to `http://localhost:8090/?id=test-video` to test the plugins. You will maybe need to chnages parameters in the url to test the plugins.
+
+For example to test the **nextTimeButtonPlugin** and the **prevTimeButtonPlugin**, you need to add the following parameters to the url: `&time=3m,4m,5m`.
 
 ---
 
