@@ -1,6 +1,6 @@
 {
   "name": "@cern-vc/cern-paella-plugins",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Paella plugins for cern use",
   "main": "src/index.js",
   "module": "dist/cern-paella-plugins.js",
